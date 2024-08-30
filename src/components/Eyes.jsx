@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 
+// 1:49:18 / 3:01:14
 function Eyes() {
   const [rotate, setRotate] = useState(0)
 
@@ -14,7 +15,7 @@ function Eyes() {
       /**
        * deltaX = center of width
        * deltaY = center of height
-       * Math.atan2 = angle in radians
+       * Math.atan2(y: number, x: number): number. Returns the angle (in radians) from the X axis to a point.
        * (180 / Math.PI) = 1 radian
        * with (180 / Math.PI), angle gets convert to degrees
        */
