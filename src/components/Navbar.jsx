@@ -10,7 +10,7 @@ function Navbar() {
       initial={{ y: 0 }}
       animate={{ y: scrollDirection === "down" ? "-100%" : "0%" }}
       transition={{ ease: "easeInOut", duration: 0.5 }}
-      className="fixed z-[999] w-full px-20 py-8 font-[Neue_Montreal] flex justify-between bg-[#18181B41] backdrop-blur-sm"
+      className="fixed z-[999] w-full px-20 py-8 font-[Neue_Montreal] flex justify-between text-shadow-xl backdrop-blur-sm"
     >
       <div className="logo">
         <svg
