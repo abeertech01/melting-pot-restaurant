@@ -1,8 +1,17 @@
 import React from "react"
+import { motion } from "framer-motion"
+import useScrollDirection from "../hooks/useScrollDirection"
 
 function Navbar() {
+  const scrollDirection = useScrollDirection()
+
   return (
-    <div className="fixed z-[999] w-full px-20 py-8 font-[Neue_Montreal] flex justify-between">
+    <motion.div
+      initial={{ y: 0 }}
+      animate={{ y: scrollDirection === "down" ? "-100%" : "0%" }}
+      transition={{ ease: "easeInOut", duration: 0.5 }}
+      className="fixed z-[999] w-full px-20 py-8 font-[Neue_Montreal] flex justify-between bg-[#18181B41] backdrop-blur-sm"
+    >
       <div className="logo">
         <svg
           width="72"
@@ -47,7 +56,7 @@ function Navbar() {
           )
         )}
       </div>
-    </div>
+    </motion.div>
   )
 }
 
