@@ -1,6 +1,7 @@
 import React from "react"
 import { motion } from "framer-motion"
 import useScrollDirection from "../hooks/useScrollDirection"
+import logo from "../assets/melting-pot.svg"
 
 function Navbar() {
   const scrollDirection = useScrollDirection()
@@ -13,11 +14,7 @@ function Navbar() {
       className="fixed z-[999] w-full px-20 py-8 font-[Neue_Montreal] flex justify-between text-shadow-xl backdrop-blur-sm"
     >
       <div className="logo">
-        <img
-          src="/src/assets/melting-pot.svg"
-          alt="logo"
-          className="h-[3rem]"
-        />
+        <img src={logo} alt="logo" className="h-[3rem]" />
       </div>
       <div className="links flex gap-10">
         {["Services", "Our Work", "About Us", "Insights", "Contact"].map(

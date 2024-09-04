@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../assets/melting-pot.svg"
 
 function Footer() {
   return (
@@ -12,11 +13,7 @@ function Footer() {
             Cuisine
           </h1>
         </div>
-        <img
-          src="/src/assets/melting-pot.svg"
-          alt="logo"
-          className="h-[40px] inline-block"
-        />
+        <img src={logo} alt="logo" className="h-[40px] inline-block" />
       </div>
       <div className="w-1/2">
         <h1 className="text-[8vw] font-semibold uppercase leading-none -mb-10">

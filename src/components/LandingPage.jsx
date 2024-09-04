@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import React from "react"
 import { FaArrowUpLong } from "react-icons/fa6"
+import tacos from "../assets/tacos.png"
 
 function LandingPage() {
   return (
@@ -24,7 +25,7 @@ function LandingPage() {
                       transition={{ ease: [0.76, 0, 0.24, 1], duration: 1.5 }}
                       className="w-[9vw] h-[5.7vw] relative top-[0.87vw] mr-1 rounded-md bg-lime-300 px-2"
                     >
-                      <img src="/src/assets/tacos.png" alt="tacos" />
+                      <img src={tacos} alt="tacos" />
                     </motion.div>
                   )}
                   <h1 className="pt-[2vw] -mb-[1vw] uppercase text-[9vw] leading-[.75] font-['Founders_Grotesk_X-Condensed'] font-semibold">

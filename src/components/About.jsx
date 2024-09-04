@@ -1,4 +1,5 @@
 import React from "react"
+import sausagePlatter from "../assets/sausage-platter.jpg"
 
 function About() {
   return (
@@ -18,7 +19,7 @@ function About() {
         </div>
         <div className="w-1/2 h-[70vh]">
           <img
-            src="/src/assets/sausage-platter.jpg"
+            src={sausagePlatter}
             alt="sausage platter"
             className="w-full h-full object-cover overflow-hidden rounded-3xl"
           />
