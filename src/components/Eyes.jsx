@@ -35,7 +35,7 @@ function Eyes() {
   }, [])
 
   return (
-    <div className="eyes w-full h-screen overflow-hidden">
+    <div className="eyes w-full h-screen overflow-hidden cursor-[url('/src/assets/burger.png'),auto]">
       <div
         data-scroll
         data-scroll-speed="-.7"

@@ -19,7 +19,7 @@ function Featured() {
     <div className="w-full py-20">
       <div className="w-full px-20 border-b-[1px] border-zinc-700 pb-20">
         <h1 className="text-7xl font-['Neue_Montreal'] tracking-tight">
-          Featured projects
+          Featured Dishes
         </h1>
       </div>
       <div className="px-20">
@@ -29,8 +29,8 @@ function Featured() {
             onHoverEnd={() => handleHoverEnd(0)}
             className="card-container relative w-1/2 h-[75vh]"
           >
-            <h1 className="absolute flex text-[#CDEA68] overflow-hidden right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl">
-              {"FYDE".split("").map((item, index) => (
+            <h1 className="absolute flex text-lime-300 overflow-hidden right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] leading-none tracking-tighter text-8xl text-shadow-xl font-semibold">
+              {"Steak".split("").map((item, index) => (
                 <motion.span
                   initial={{ y: "100%" }}
                   animate={cards[0]}
@@ -49,7 +49,7 @@ function Featured() {
             <div className="card w-full h-full rounded-xl overflow-hidden">
               <img
                 className="w-full h-full bg-cover"
-                src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-1326x1101.png"
+                src="https://www.abelandcole.co.uk/media/2072_17237_x.jpg"
                 alt=""
               />
             </div>
@@ -60,8 +60,8 @@ function Featured() {
               onHoverEnd={() => handleHoverEnd(1)}
               className="card w-full h-full rounded-xl overflow-hidden border"
             >
-              <h1 className="absolute flex overflow-hidden text-[#CDEA68] z-[9] leading-none tracking-tighter right-full top-1/2 translate-x-1/2 -translate-y-1/2 text-8xl">
-                {"VISE".split("").map((item, index) => (
+              <h1 className="absolute flex overflow-hidden text-lime-300 z-[9] leading-none tracking-tighter right-full top-1/2 translate-x-1/2 -translate-y-1/2 text-8xl text-shadow-xl font-semibold">
+                {"Kebab".split("").map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}
                     animate={cards[1]}
@@ -78,7 +78,7 @@ function Featured() {
               </h1>
               <img
                 className="w-full h-full bg-cover"
-                src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-1326x1101.jpg"
+                src="https://apinchofadventure.com/wp-content/uploads/2022/05/Kafta-feature-image-5.jpg"
                 alt=""
               />
             </motion.div>
