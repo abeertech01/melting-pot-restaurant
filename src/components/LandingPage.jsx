@@ -9,6 +9,7 @@ function LandingPage() {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.3"
+      id="landingPage"
       className="relative w-full h-screen pt-1 bg-[url('/src/assets/mandi-biryani.jpg')] bg-cover"
     >
       <div className="absolute w-full h-full bg-black/80" z-0 />
